@@ -3,8 +3,6 @@ version: 0.2
 phases:
   install:
     commands:
-    # install docker && docker compose 
-    - mkdir -p ${COMPOSER_CACHE_DIR}
     - yum install docker -y
     - |
       DOCKER_CONFIG=${DOCKER_CONFIG:-$HOME/.docker}
