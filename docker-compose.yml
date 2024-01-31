@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  nginx1:
+    image: nginx
+    container_name: peter_nginx1
+    restart: always
+    tty: true
+
+  nginx2:
+    image: nginx
+    container_name: peter_nginx2
+    restart: always
+    tty: true
+
+  nginx3:
+    image: nginx
+    container_name: peter_nginx3 
+    restart: always
+    tty: true
