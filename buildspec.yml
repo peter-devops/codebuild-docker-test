@@ -15,3 +15,4 @@ phases:
     - docker ps
     - docker compose up -d 
     - docker ps 
+    - echo "test"
